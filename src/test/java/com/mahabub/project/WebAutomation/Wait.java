@@ -29,7 +29,7 @@ public class Wait extends BaseDriver{
 				
 		//Explicit Wait >> if give this path wrong, it will wait for 30 seconds, after showing an exception message
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-		//.
+		//
 		WebElement blog = (WebElement) wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[normalize-space()='Blog1']")));
 		blog.click();
 		

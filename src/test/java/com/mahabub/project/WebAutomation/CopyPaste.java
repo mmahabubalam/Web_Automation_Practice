@@ -11,7 +11,7 @@ public class CopyPaste extends BaseDriver{
   String url1 = "https://demoqa.com/automation-practice-form";
   
   @Test
-  public void CopyPaste() throws InterruptedException {
+  public void Copy_Paste() throws InterruptedException {
     
     driver.manage().window();
     driver.get(url1);

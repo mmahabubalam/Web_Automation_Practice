@@ -23,7 +23,7 @@ public class MouseHandling extends BaseDriver{
 		//Selecting the 1st element of the drop-down
 		Actions action = new Actions(driver);
 		WebElement hobar = driver.findElement(By.xpath("//a[@class='no_border'][contains(text(),'Tester’s Hub')]"));
-		action.moveToElement(hobar).perform();
+		action.moveToElement(hobar).perform(); //so my mouse cursor will move to the element of hobar's location
 		Thread.sleep(2000);
 
 		
