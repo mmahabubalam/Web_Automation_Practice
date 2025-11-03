@@ -34,7 +34,11 @@ public class BaseDriver {
 	
 	@AfterSuite
 	public void close() {
-		driver.close();
+		//Close for single window/Tab
+		//driver.close();
+		
+		//Quite for all Window/Tab
+		driver.quit();
 	}
 
 }

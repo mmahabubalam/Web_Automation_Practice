@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.mahabub.project.WebAutomation.AlertDialogHandle">
+      <class name="com.mahabub.project.WebAutomation.Tab_Handling">
         <methods>
-          <include name="alertDialog"/>
+          <include name="TabHandling"/>
           <include name="close"/>
           <include name="start"/>
         </methods>
-      </class> <!-- com.mahabub.project.WebAutomation.AlertDialogHandle -->
+      </class> <!-- com.mahabub.project.WebAutomation.Tab_Handling -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
